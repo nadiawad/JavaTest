@@ -1,5 +1,3 @@
-package OracleSamples;
-
 /**
  * Created by Nadi on 14/04/2016.
  */
