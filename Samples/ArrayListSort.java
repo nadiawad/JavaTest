@@ -10,6 +10,7 @@ public class ArrayListSort {
         p.add(5);
         p.add(2);
         p.sort();
+        //Collections.sort(p);
         System.out.println(p);
     }
 }
