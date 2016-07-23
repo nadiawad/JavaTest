@@ -9,8 +9,8 @@ public class ArrayListSort {
         p.add(2);
         p.add(5);
         p.add(2);
-        p.sort();
-        //Collections.sort(p);
+        //1. p.sort();
+        //2. Collections.sort(p);
         System.out.println(p);
     }
 }
