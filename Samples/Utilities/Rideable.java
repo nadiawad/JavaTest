@@ -1,6 +1,8 @@
+package Utilities;
+
 /**
  * Created by Nadi on 23/07/2016.
  */
-interface Rideable {
+public interface Rideable {
     String getGait();
 }

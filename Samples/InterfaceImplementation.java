@@ -1,3 +1,5 @@
+import Utilities.Rideable;
+
 /**
  * Created by Nadi on 23/07/2016.
  */
