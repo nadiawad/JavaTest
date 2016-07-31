@@ -1,3 +1,5 @@
+package JavaBasics;
+
 /**
  * Created by Nadi on 31/07/2016.
  */
