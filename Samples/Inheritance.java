@@ -1,22 +1,26 @@
-import Utilities.Beta;
-import Utilities.Alpha;
 /**
  * Created by Nadi on 23/07/2016.
  */
 
-class Inheritance extends Beta {
-    public String getType() { return "gamma"; }
+class Alpha {
+    String getType() { return "alpha"; }
+}
+class Beta extends Alpha {
+    String getType() { return "beta"; }
+}
+class Gamma extends Beta {
+    String getType() { return "gamma"; }
     public static void main(String[] args) {
-        Alpha g1 = new Inheritance();
-        Beta g2 = new Inheritance();
-        System.out.println(g1.getType() + " "
-                + g2.getType());
         /*
-        Inheritance g1 = new Alpha();
-        Inheritance g2 = new Beta();
+        Gamma g1 = new Alpha();
+        Gamma g2 = new Beta();
         System.out.println(g1.getType() + " "
                 + g2.getType());
                 */
+        Alpha g1=new Gamma();
+        Beta g2=new Gamma();
+        System.out.println(g1.getType() + " "
+                + g2.getType());
     }
 }
 

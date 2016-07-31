@@ -1,14 +1,18 @@
-import Utilities.Feline;
-
 /**
  * Created by Nadi on 23/07/2016.
  */
-public class Inheritance2 extends Feline {
-    public Inheritance2() {
+class Feline {
+    public String type = "f ";
+    public Feline() {
+        System.out.print("feline ");
+    }
+}
+class Cougar extends Feline {
+    public Cougar() {
         System.out.print("cougar ");
     }
     public static void main(String[] args) {
-        new Inheritance2().go();
+        new Cougar().go();
     }
     void go() {
         type = "c ";
